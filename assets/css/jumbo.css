@@ -1,0 +1,29 @@
+.jumbotron {
+    background-color: #dcdcdc;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .index,.about {
+    opacity: 0.5;
+    font-size: 20px;
+  }
+  
+  .page-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  
