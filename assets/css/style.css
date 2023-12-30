@@ -1,4 +1,3 @@
-
 main {
   padding: 15px;
 }
@@ -35,7 +34,7 @@ main {
   padding: 10px;
   border: none;
   border-radius: 20px;
-  background-color: #7e7e7e;
+  background-color: #F42C37;
   color: white;
   font-size: 10px;
 }
@@ -54,6 +53,40 @@ main {
 p.desc-content {
   width: 40ch;
 }
+
+@media screen and (max-width: 600px) {
+  .jumbotron {
+    padding: 30px;
+    height: 555px;
+  }
+
+  .content {
+    margin-left: 0;
+    margin-top: 50px;
+    /* background-color: red; */
+    padding-right: 50px;
+  }
+
+  .rl-title-1 {
+    font-size: 1.4em;
+  }
+
+  .rl-title-2 {
+    font-size: 3em;
+  }
+
+  .title {
+    font-size: 65px;
+    /* color: red; */
+    margin-top: 25px;
+  }
+
+  .content-foot {
+    margin-top: 50px;
+  }
+}
+
+/* CARDS */
 
 .cards {
   display: flex;
@@ -86,9 +119,28 @@ p.desc-content {
   border-radius: 20px;
   padding: 5px;
   border: none;
-  background-color: #7e7e7e;
+  background-color: #F42C37;
   color: white;
   width: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-sm-1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-lg {
+    width: 100%;
+    height: 280px;
+    /* background-color: red; */
+    margin-bottom: 20px;
+  }
 }
 
 /* INFO */
@@ -98,6 +150,12 @@ p.desc-content {
   justify-content: space-between;
   margin-top: 10px;
   padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .info {
+    padding: 5px;
+  }
 }
 
 /* CONTENT-2 */
@@ -161,6 +219,29 @@ p.desc-content {
   color: white;
 }
 
+@media screen and (max-width: 600px) {
+  .content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    padding: 20px;
+  }
+  .desc-one {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .desc-gb-1 {
+    font-size: 50px;
+    width: 100%;
+  }
+
+  .desc-p {
+    width: 45ch;
+    /* margin-bottom: px; */
+  }
+}
+
 /* PRODUCT */
 
 .section-header {
@@ -203,6 +284,26 @@ p.desc-content {
   margin-left: -25px;
 }
 
+@media screen and (max-width: 600px) {
+  .section-header {
+    padding: 10px;
+  }
+
+  .ph-bg-1 {
+    font-size: 25px;
+  }
+
+  .ph-bg-2 {
+    font-size: 1rem;
+  }
+
+  .product-card {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+/* BLOG */
 .card-sm-3 {
   padding: 10px;
   width: 34%;
@@ -229,4 +330,11 @@ p.desc-content {
 
 .card-s-p {
   margin-top: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .card-sm-3 {
+    width: 100%;
+  }
 }
