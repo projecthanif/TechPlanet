@@ -1,13 +1,13 @@
 
 
 function navToggle() {
-    const navBar = document.querySelector('ul');
-    const navToggle = document.querySelector('.nav-toggle');
+    const navBar = document.querySelector('ul.navbar');
+    const navToggle = document.querySelector('.nav-toggle')
 
-    const onEvent = addEventListener('click', () => {
-        navBar.className = 'navbar showNav';
+    navToggle.addEventListener('click', () => {
+        navBar.className = 'showNav';
     })
 
 }
 
-navToggle();
+// navToggle();
