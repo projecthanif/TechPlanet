@@ -46,8 +46,8 @@
 }
 
 .form-input.textarea {
-    width: 90%;
-    height: 300px;
+  width: 90%;
+  height: 300px;
 }
 
 .btn-submit {
@@ -67,4 +67,29 @@
   background-color: #7e7e7e;
   border-radius: 20px;
   height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-details {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .left {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .contact-p {
+    width: 53ch;
+  }
+
+  .form-input {
+    width: 90%;
+  }
 }

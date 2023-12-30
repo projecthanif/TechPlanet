@@ -38,3 +38,15 @@
   margin-top: 10px;
   width: 55ch;
 }
+
+
+@media screen and (max-width: 600px) {
+  .page-details {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
