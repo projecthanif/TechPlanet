@@ -67,13 +67,18 @@ a.nav-link {
 
 
 @media screen and (max-width:600px) {
+  nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+  }
   .navbar {
     display: none;
   }
   .navbar.end {
-    margin-right: 10px;
+    margin-right: -10px;
     width: 55%;
-    /* background-color: red; */
   }
 
   .navbar-btn {
@@ -87,4 +92,17 @@ a.nav-link {
     border-radius: 5px;
     font-size: 20px;
   }
+}
+
+.showNav {
+  position: fixed;
+  margin-top: 50px;
+  margin-left: -25px;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  z-index: 1;
 }

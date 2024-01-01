@@ -59,6 +59,7 @@ p.desc-content {
   .jumbotron {
     padding: 30px;
     height: 555px;
+    margin-top: 75px;
   }
 
   .content {
@@ -77,7 +78,7 @@ p.desc-content {
   }
 
   .title {
-    font-size: 65px;
+    font-size: 52px;
     /* color: red; */
     margin-top: 25px;
   }
@@ -123,6 +124,7 @@ p.desc-content {
   background-color: #F42C37;
   color: white;
   width: 80px;
+  /* z-index: 0; */
 }
 
 @media screen and (max-width: 600px) {
@@ -238,7 +240,7 @@ p.desc-content {
   }
 
   .desc-p {
-    width: 45ch;
+    width: 35ch;
     /* margin-bottom: px; */
   }
 }

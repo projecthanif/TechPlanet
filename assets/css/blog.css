@@ -49,4 +49,16 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .card-s-body {
+    /* width: 50%; */
+  }
+
+  .card-sm-3 {
+    width: 100%;
+  }
+
+  .card-s-p {
+    width: 40ch;
+  }
 }

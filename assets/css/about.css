@@ -56,11 +56,12 @@
     flex-wrap: wrap-reverse;
   }
   .left {
-    padding: 20px;
+    margin-top: 20px;
+    padding: 0px;
   }
   
   .about-p {
-    width: 50ch;
+    width: 40ch;
   }
   .right {
     width: 100%;

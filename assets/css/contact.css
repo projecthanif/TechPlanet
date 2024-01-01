@@ -81,15 +81,20 @@
   }
 
   .left {
-    padding: 20px;
+    width: 100%;
+    padding: 0px;
     margin-top: 20px;
+    /* background-color: red; */
   }
 
   .contact-p {
-    width: 53ch;
+    width: 45ch;
   }
 
   .form-input {
+    width: 90%;
+  }
+  .form-input.textarea {
     width: 90%;
   }
 }
