@@ -12,16 +12,29 @@ nav {
   justify-content: space-between;
 }
 
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.cr-red {
+  color: #F42C37;
+}
+
+.logo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
 li {
   list-style-type: none;
 }
 
 li.nav-list {
   float: left;
-}
-
-.cr-red {
-  color: #F42C37;
 }
 
 a.nav-link {

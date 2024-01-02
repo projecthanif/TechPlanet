@@ -10,7 +10,13 @@ main {
   padding: 50px;
   border-radius: 30px;
   /* background-color: #dcdcdc; */
-  background-image: linear-gradient(to right, #dcdcdc, #E7E7E7);
+  background-image: linear-gradient(to right, #dcdcdc, #e7e7e7);
+}
+
+.jb-image {
+  position: absolute;
+  top: 150px;
+  left: 30%;
 }
 
 .content {
@@ -35,7 +41,7 @@ main {
   padding: 10px;
   border: none;
   border-radius: 20px;
-  background-color: #F42C37;
+  background-color: #f42c37;
   color: white;
   font-size: 10px;
 }
@@ -98,30 +104,132 @@ p.desc-content {
 
 .card-sm-1 {
   background-color: #dcdcdc;
-  width: 26%;
-  height: 280px;
+  width: 24%;
+  height: 320px;
   border-radius: 15px;
+  padding: 40px;
+  color: white;
+}
+
+.card-detail {
+  padding-top: 40px;
+  margin-left: -20px;
+}
+
+.fs-4 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.fs-3 {
+  font-size: 30px;
+}
+
+.fs-2 {
+  font-size: 60px;
+}
+
+.card-sm-1.one {
+  background-color: #1f1f1f;
+}
+
+.card-btn.one{
+  position: relative;
+  left: -25px;
+  bottom: 140px;
+  padding: 40x;
+}
+
+.card-sm-1.two {
+  background-color: #7e7e7e;
+}
+
+.card-btn.two{
+  position: relative;
+  left: -25px;
+  bottom: 162px;
+  padding: 40x;
+}
+
+.card-sm-1.three {
+  background-color: rgba(105, 244, 105, 0.933);
+}
+
+.card-btn.three{
+  position: relative;
+  left: -25px;
+  bottom: 230px;
+  padding: 40x;
+}
+
+.card-img.three {
+  left: -150px;
+  top: -183px;
+  width: 450px;
+}
+
+.card-sm-1.four {
+  background-color: rgba(49, 92, 209, 0.933);
+}
+
+.card-btn.four{
+  position: relative;
+  left: -25px;
+  bottom: 162px;
+  padding: 40x;
+}
+
+.card-img {
+  position: relative;
+  top: -190px;
+  left: 10px;
+  /* background-color: red; */
 }
 
 .card-lg {
   background-color: #dcdcdc;
   width: 45%;
+  height: 320px;
   border-radius: 15px;
 }
 
-.btn-link {
+.card-lg.one {
+  background-color: #F42C37;
+}
+
+.card-detail-lg {
+  padding: 20px;
+  margin-top: 70px;
+  color: white;
+}
+
+.card-detail-lg>.fs-2 {
+  opacity: 0.5;
+  font-size: 70px;
+}
+
+.card-img.lg-one {
+  width: 50%;
+  margin-left: 200px;
+}
+
+.card-btn.lg-one {
   position: relative;
-  bottom: -230px;
-  /* background-color: red; */
-  width: fit-content;
-  margin-left: 20px;
+  left: 30px;
+  bottom: 185px;
+  padding: 40x;
+}
+
+.btn-card.lg-one {
+  background-color: white;
+  color: red;
 }
 
 .btn-card {
   border-radius: 20px;
   padding: 5px;
   border: none;
-  background-color: #F42C37;
+  background-color: #f42c37;
   color: white;
   width: 80px;
   /* z-index: 0; */
@@ -169,9 +277,14 @@ p.desc-content {
   padding: 40px;
   background-color: #dcdcdc;
   border-radius: 20px;
-  height: 280px;
+  height: 350px;
   margin-top: 70px;
   margin-bottom: 70px;
+}
+
+.content-2.one {
+  background-color: #F42C37;
+  color: white;
 }
 
 .desc-one {
@@ -180,17 +293,13 @@ p.desc-content {
 }
 
 .per-off {
-  font-size: 15px;
+  font-size: 20px;
   opacity: 0.5;
 }
 
 .desc-gb-1 {
-  font-size: 80px;
+  font-size: 100px;
   width: 1ch;
-}
-
-.desc-two {
-  /* padding: 10px; */
 }
 
 .desc-bg-3 {
@@ -205,7 +314,8 @@ p.desc-content {
 
 .desc-p {
   width: 70ch;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
+  margin-top: 30px;
 }
 
 .btn-links {
@@ -220,6 +330,7 @@ p.desc-content {
   border: none;
   background-color: #7e7e7e;
   color: white;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -334,7 +445,6 @@ p.desc-content {
 .card-s-p {
   margin-top: 10px;
 }
-
 
 @media screen and (max-width: 600px) {
   .card-sm-3 {
