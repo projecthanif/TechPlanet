@@ -3,7 +3,7 @@
     background-image: linear-gradient(to right, #dcdcdc, #E7E7E7);
     padding: 30px;
     text-align: center;
-    margin-top: 75px;
+    /* margin-top: 75px; */
   }
   
   .link {
@@ -29,3 +29,8 @@
     margin-top: -10px;
   }
   
+  @media screen and (max-width: 600px) {
+    .jumbotron {
+      margin-top: 90px;
+    }
+  }

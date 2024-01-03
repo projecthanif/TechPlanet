@@ -66,8 +66,9 @@ a.foot-links {
   background-color: red;
   position: absolute;
   margin-top: 6px;
-  margin-left: -90px;
+  margin-left: -110px;
   color: white;
+  width: 100px;
 }
 
 .foot {
