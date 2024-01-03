@@ -63,10 +63,11 @@ a.foot-links {
   padding: 10px;
   border: none;
   border-radius: 20px;
-  background-color: #7e7e7e;
+  background-color: red;
   position: absolute;
   margin-top: 6px;
   margin-left: -90px;
+  color: white;
 }
 
 .foot {

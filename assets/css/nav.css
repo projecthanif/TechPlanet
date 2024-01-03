@@ -7,9 +7,10 @@
 }
 
 nav {
-  padding: 15px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
+  /* background-color: aqua; */
 }
 
 .nav-logo {
@@ -20,7 +21,7 @@ nav {
 }
 
 .cr-red {
-  color: #F42C37;
+  color: #f42c37;
 }
 
 .logo {
@@ -67,7 +68,7 @@ a.nav-link {
   border-radius: 20px;
   width: 90px;
   border: none;
-  background-color: #F42C37;
+  background-color: #f42c37;
   color: white;
 }
 .nav-toggle {
@@ -78,8 +79,7 @@ a.nav-link {
   color: black;
 }
 
-
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   nav {
     position: fixed;
     width: 100%;
