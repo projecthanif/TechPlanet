@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 main {
   padding: 15px;
 }
@@ -9,7 +13,6 @@ main {
   height: 600px;
   padding: 50px;
   border-radius: 30px;
-  /* background-color: #dcdcdc; */
   background-image: linear-gradient(to right, #dcdcdc, #e7e7e7);
 }
 
