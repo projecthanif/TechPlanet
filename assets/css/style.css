@@ -119,8 +119,10 @@ p.desc-content {
 }
 
 .card-detail {
+  position: relative;
   padding-top: 40px;
   margin-left: -20px;
+  z-index: 10;
 }
 
 .fs-4 {
@@ -140,7 +142,7 @@ p.desc-content {
   background-color: #1f1f1f;
 }
 
-.card-btn.one{
+.card-btn.one {
   position: relative;
   left: -25px;
   bottom: 140px;
@@ -151,7 +153,7 @@ p.desc-content {
   background-color: #7e7e7e;
 }
 
-.card-btn.two{
+.card-btn.two {
   position: relative;
   left: -25px;
   bottom: 162px;
@@ -160,26 +162,25 @@ p.desc-content {
 
 .card-sm-1.three {
   background-color: rgba(105, 244, 105, 0.933);
-}
-
-.card-btn.three{
   position: relative;
-  left: -25px;
-  bottom: 230px;
-  padding: 40x;
+  z-index: 0;
 }
 
-.card-img.three {
-  left: -150px;
-  top: -183px;
-  width: 450px;
+.card-btn.three {
+  position: relative;
+  left: -20px;
+  top: 60px;
+  bottom: 230px;
+  /* padding: 40x; */
 }
+
+
 
 .card-sm-1.four {
   background-color: rgba(49, 92, 209, 0.933);
 }
 
-.card-btn.four{
+.card-btn.four {
   position: relative;
   left: -25px;
   bottom: 162px;
@@ -190,7 +191,16 @@ p.desc-content {
   position: relative;
   top: -190px;
   left: 10px;
-  /* background-color: red; */
+  /* background-color: red;*/
+}
+
+.card-img.three {
+  position: absolute;
+  z-index: 0;
+  inset-inline-end: 0;
+  inset-block-start: 40px;
+  width: 410px;
+  left: -80px;
 }
 
 .card-lg {
@@ -201,16 +211,17 @@ p.desc-content {
 }
 
 .card-lg.one {
-  background-color: #F42C37;
+  background-color: #f42c37;
 }
 
 .card-detail-lg {
   padding: 20px;
   margin-top: 70px;
   color: white;
+  z-index: 10;
 }
 
-.card-detail-lg>.fs-2 {
+.card-detail-lg > .fs-2 {
   opacity: 0.5;
   font-size: 70px;
 }
@@ -239,7 +250,6 @@ p.desc-content {
   background-color: #f42c37;
   color: white;
   width: 80px;
-  /* z-index: 0; */
 }
 
 @media screen and (max-width: 600px) {
@@ -262,14 +272,18 @@ p.desc-content {
 
   .card-img.lg-one {
     width: 60%;
-    margin-left: 100px; 
+    margin-left: 100px;
   }
 
   .card-btn.lg-one {
     width: 50%;
   }
-
-
+  .card-img.three {
+    width: auto;
+    inset-block-start: 130px;
+    left: 0;
+  }
+  
 }
 
 /* INFO */
@@ -301,7 +315,7 @@ p.desc-content {
 }
 
 .content-2.one {
-  background-color: #F42C37;
+  background-color: #f42c37;
   color: white;
 }
 
@@ -457,7 +471,6 @@ p.desc-content {
   .card-foot {
     margin-left: 20px;
   }
-
 }
 
 /* BLOG */
