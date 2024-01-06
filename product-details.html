@@ -143,10 +143,59 @@
           <!-- Review form -->
           <div class="form-top">
             <h3 class="form-title">Add a review</h3>
-            <p class="form-para">Your email address would not be publish. Required fields are marked*</p>
+            <p class="form-para">
+              Your email address would not be publish. Required fields are
+              marked*
+            </p>
           </div>
-          <form action="#">
-            <input type="checkbox" name="star" id="" class="checkbox">
+          <form action="#" class="form">
+            <div class="checkbox">
+              <label for="checkbox" class="your-rating">Your rating*</label>
+              <div class="wrapper">
+                <input type="checkbox" id="st1" value="1" />
+                <label for="st1"></label>
+                <input type="checkbox" id="st2" value="2" />
+                <label for="st2"></label>
+                <input type="checkbox" id="st3" value="3" />
+                <label for="st3"></label>
+                <input type="checkbox" id="st4" value="4" />
+                <label for="st4"></label>
+                <input type="checkbox" id="st5" value="5" />
+                <label for="st5"></label>
+              </div>
+            </div>
+            <div class="form-text">
+              <div class="input">
+                <label for="name">Name*</label>
+                <input
+                type="text"
+                name="name"
+                id=""
+                class="form-input"
+              />
+              </div>
+              <div class="input">
+                <label for="email">Email*</label>
+                <input
+                type="email"
+                name="email"
+                id=""
+                class="form-input"
+              />
+              </div>
+            </div>
+            <label for="review">Your review*</label>
+            <textarea
+              name="review"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder=""
+              class="form-input textarea"
+            ></textarea>
+            <div class="form-btn">
+              <button type="submit" class="btn-submit">Submit</button>
+            </div>
           </form>
         </div>
       </section>
