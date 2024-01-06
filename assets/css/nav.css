@@ -9,8 +9,6 @@ nav {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  width: 425px;
-  max-width: 100vw;
 }
 
 .nav-logo {
@@ -54,6 +52,10 @@ li.nav-list,
 a.nav-link {
   display: block;
   padding: 10px;
+}
+
+.navbar {
+  width: 100%;
 }
 
 .navbar.end {
