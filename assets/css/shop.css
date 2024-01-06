@@ -38,7 +38,7 @@ input.search-p {
   padding: 7px;
   border: none;
   border-radius: 50px;
-  background-color: #7e7e7e;
+  background-color: #f42c37;
   color: white;
   position: absolute;
   margin-left: -30px;
@@ -67,7 +67,7 @@ a.prod-list-link {
 }
 
 a.prod-list-link.active {
-  color: black;
+  color: #f42c37;
   opacity: 1;
 }
 
@@ -139,6 +139,7 @@ main {
 /* CARD */
 .card-sm-2 {
   padding: 10px;
+  margin-bottom: 30px;
 }
 
 .card-body {

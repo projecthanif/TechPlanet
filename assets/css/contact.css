@@ -22,7 +22,7 @@
 }
 
 .contact-p {
-  width: 70ch;
+  /* width: 70ch; */
   text-justify: auto;
   line-height: 1.5em;
   opacity: 0.6;
