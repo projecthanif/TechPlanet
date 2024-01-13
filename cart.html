@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/nav.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/jumbo.css" />
+    <link rel="stylesheet" href="assets/css/cart.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -14,7 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>TechPlanet</title>
+    <title>Document</title>
   </head>
   <body>
     <nav>
@@ -23,12 +23,12 @@
         <h1 class="nav-logo-text"><span class="cr-red">Tech</span>Planet</h1>
       </div>
       <ul class="navbar">
-        <li class="nav-list"><a href="#" class="nav-link active">Home</a></li>
+        <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
         <li class="nav-list"><a href="shop.html" class="nav-link">Shop</a></li>
         <li class="nav-list">
           <a href="about.html" class="nav-link">About Us</a>
         </li>
-        <li class="nav-list"><a href="blog.html" class="nav-link">Blog</a></li>
+        <li class="nav-list"><a href="#" class="nav-link active">Blog</a></li>
         <li class="nav-list">
           <a href="contact.html" class="nav-link">Contact</a>
         </li>
@@ -48,5 +48,70 @@
         </button>
       </ul>
     </nav>
+    <main>
+      <section>
+        <div class="jumbotron">
+          <div class="link">
+            <a href="index.html" class="link index-link">
+              <h4 class="index">Home</h4>
+            </a>
+            >
+            <a href="#" class="link about-link">
+              <h4 class="about">Cart</h4>
+            </a>
+          </div>
+          <h1 class="page-title">Cart</h1>
+        </div>
+      </section>
+      <article class="main-page">
+        <section>
+          <div class="message">
+            <p class="talk">
+              You can continue to shop and we'll save your items to Cart
+            </p>
+            <h2 class="title">Shopping Cart</h2>
+          </div>
+        </section>
+        <div class="cart-info">
+          <section class="cart-table">
+            <table>
+              <thead>
+                <th>items</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th></th>
+              </thead>
+              <tbody>
+                <tr class="table-row">
+                  <td class="table-flex">
+                    <div class="card-body">
+                      <img
+                        src="/assets/image/download (15).jpg"
+                        alt=""
+                        class="card-img"
+                      />
+                    </div>
+                    <div>
+                      <h4 class="product-name">HP EliteBook</h4>
+                      <h6 class="product-color">Silver</h6>
+                      <h6 class="product-quantity">Quantity (1)</h6>
+                    </div>
+                  </td>
+                  <td class="quantity">
+                    <input
+                      type="number"
+                      min="0"
+                      placeholder="0"
+                      class="number"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section class="order-summary">this is not fun</section>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
