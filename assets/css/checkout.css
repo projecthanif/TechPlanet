@@ -145,7 +145,34 @@ label {
   width: 45%;
   padding: 10px;
 }
+
+.shipment-type-card {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.double.ship {
+  margin-top: 10px;
+}
+
+.type {
+  color: gray;
+  opacity: 0.8;
+  font-weight: lighter;
+}
+
 /* SHIPMENT ENDS*/
+
+/* PAYMENT */
+
+.payment {
+  width: 45%;
+}
+
+/* PAYMENT ENDS */
 
 /* ORDER SUMMARY */
 
