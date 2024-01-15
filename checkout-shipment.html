@@ -108,6 +108,7 @@
             <p class="step-desc">When would you like your order delivered</p>
             <form action="">
               <div class="shipment-type-card">
+                <input type="radio" name="shipping" id="same-day" value="same-day" />
                 <h4 class="arrival-date">Mon, September 17</h4>
                 <div class="double ship">
                   <h5 class="type">Same day delivery</h5>
@@ -115,6 +116,7 @@
                 </div>
               </div>
               <div class="shipment-type-card">
+                <input type="radio" name="shipping" id="express" value="express" />
                 <h4 class="arrival-date">Mon, September 17</h4>
                 <div class="double ship">
                   <h5 class="type">Express Delivery</h5>
@@ -122,6 +124,7 @@
                 </div>
               </div>
               <div class="shipment-type-card">
+                <input type="radio" name="shipping" id="standard" value="standard" />
                 <h4 class="arrival-date">Mon, September 17</h4>
                 <div class="double ship">
                   <h5 class="type">Standard Delivery</h5>
@@ -129,6 +132,7 @@
                 </div>
               </div>
               <div class="shipment-type-card">
+                <input type="radio" name="shipping" id="standard" value="store" />
                 <h4 class="arrival-date">Store Pickup(September 17)</h4>
                 <div class="double ship">
                   <h5 class="type">Select a nearby store</h5>
@@ -264,5 +268,7 @@
         <div class="privacy">Privacy Policy, Terms & Condition</div>
       </div>
     </footer>
+
+    <script src="./assets/js/shipmentOption.js"></script>
   </body>
 </html>
