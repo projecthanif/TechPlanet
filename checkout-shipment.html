@@ -24,7 +24,9 @@
         <h1 class="nav-logo-text"><span class="cr-red">Tech</span>Planet</h1>
       </div>
       <ul class="navbar">
-        <li class="nav-list"><a href="#" class="nav-link active">Home</a></li>
+        <li class="nav-list">
+          <a href="./index.html" class="nav-link">Home</a>
+        </li>
         <li class="nav-list"><a href="shop.html" class="nav-link">Shop</a></li>
         <li class="nav-list">
           <a href="about.html" class="nav-link">About Us</a>
@@ -41,7 +43,7 @@
         <a href="" class="link-s">
           <i class="fa fa-search"></i>
         </a>
-        <a href="" class="link-s">
+        <a href="cart.html" class="link-s">
           <i class="fa fa-shopping-cart"></i>
         </a>
         <button class="nav-toggle">
@@ -108,7 +110,12 @@
             <p class="step-desc">When would you like your order delivered</p>
             <form action="">
               <div class="shipment-type-card">
-                <input type="radio" name="shipping" id="same-day" value="same-day" />
+                <input
+                  type="radio"
+                  name="shipping"
+                  id="same-day"
+                  value="same-day"
+                />
                 <h4 class="arrival-date">Mon, September 17</h4>
                 <div class="double ship">
                   <h5 class="type">Same day delivery</h5>
@@ -116,7 +123,12 @@
                 </div>
               </div>
               <div class="shipment-type-card">
-                <input type="radio" name="shipping" id="express" value="express" />
+                <input
+                  type="radio"
+                  name="shipping"
+                  id="express"
+                  value="express"
+                />
                 <h4 class="arrival-date">Mon, September 17</h4>
                 <div class="double ship">
                   <h5 class="type">Express Delivery</h5>
@@ -124,7 +136,12 @@
                 </div>
               </div>
               <div class="shipment-type-card">
-                <input type="radio" name="shipping" id="standard" value="standard" />
+                <input
+                  type="radio"
+                  name="shipping"
+                  id="standard"
+                  value="standard"
+                />
                 <h4 class="arrival-date">Mon, September 17</h4>
                 <div class="double ship">
                   <h5 class="type">Standard Delivery</h5>
@@ -132,7 +149,12 @@
                 </div>
               </div>
               <div class="shipment-type-card">
-                <input type="radio" name="shipping" id="standard" value="store" />
+                <input
+                  type="radio"
+                  name="shipping"
+                  id="standard"
+                  value="store"
+                />
                 <h4 class="arrival-date">Store Pickup(September 17)</h4>
                 <div class="double ship">
                   <h5 class="type">Select a nearby store</h5>
@@ -140,12 +162,14 @@
                 </div>
               </div>
               <div class="double btn">
-                <a href="cart.html" class="btn-redirect">
-                  <i class="fa fa-navigation"></i> Back to Cart
+                <a href="./checkout-address.html" class="btn-redirect">
+                  <i class="fa fa-navigation"></i> Back to address
                 </a>
-                <button class="btn-form" type="submit">
-                  Continue to Shipping
-                </button>
+                <a href="./checkout-shipment.html" class="form-link">
+                  <button class="btn-form" type="submit">
+                    Continue to Shipping
+                  </button>
+                </a>
               </div>
             </form>
           </section>

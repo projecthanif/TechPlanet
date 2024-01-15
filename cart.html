@@ -28,7 +28,7 @@
         <li class="nav-list">
           <a href="about.html" class="nav-link">About Us</a>
         </li>
-        <li class="nav-list"><a href="#" class="nav-link active">Blog</a></li>
+        <li class="nav-list"><a href="#" class="nav-link">Blog</a></li>
         <li class="nav-list">
           <a href="contact.html" class="nav-link">Contact</a>
         </li>
@@ -40,7 +40,7 @@
         <a href="" class="link-s">
           <i class="fa fa-search"></i>
         </a>
-        <a href="" class="link-s">
+        <a href="cart.html" class="link-s">
           <i class="fa fa-shopping-cart"></i>
         </a>
         <button class="nav-toggle">
@@ -82,36 +82,236 @@
                 <th></th>
               </thead>
               <tbody>
-                <tr class="table-row">
-                  <td class="table-flex">
-                    <div class="card-body">
-                      <img
-                        src="/assets/image/download (15).jpg"
-                        alt=""
-                        class="card-img"
-                      />
-                    </div>
-                    <div>
-                      <h4 class="product-name">HP EliteBook</h4>
-                      <h6 class="product-color">Silver</h6>
-                      <h6 class="product-quantity">Quantity (1)</h6>
+                <tr class="cart-card">
+                  <td class="items">
+                    <img
+                      src="./assets/image/download__10_-removebg-preview.png"
+                      alt=""
+                      class="cart-img"
+                    />
+                    <div class="cart-card-info">
+                      <h4 class="cart-name">Samsung Galaxy Watch Active2</h4>
+                      <p class="item-color">Blue</p>
+                      <p class="item-number">Quantity(1)</p>
                     </div>
                   </td>
                   <td class="quantity">
-                    <input
-                      type="number"
-                      min="0"
-                      placeholder="0"
-                      class="number"
-                    />
+                    1
+                    <!-- <div class="amount">1</div>
+                    <div class="counter">
+                      <div class="increase">+</div>
+                      <div class="decrease">-</div>
+                    </div> -->
                   </td>
+                  <td class="price">
+                    <div><h5>$1,200</h5></div>
+                  </td>
+                  <td class="delete"></td>
+                </tr>
+                <tr class="cart-card">
+                  <td class="items">
+                    <img
+                      src="./assets/image/download__12_-removebg-preview.png"
+                      alt=""
+                      class="cart-img"
+                    />
+                    <div class="cart-card-info">
+                      <h4 class="cart-name">Sony PlayStation 5</h4>
+                      <p class="item-color">Blue</p>
+                      <p class="item-number">Quantity(1)</p>
+                    </div>
+                  </td>
+                  <td class="quantity">
+                    1
+                    <!-- <div class="amount">1</div>
+                    <div class="counter">
+                      <div class="increase">+</div>
+                      <div class="decrease">-</div>
+                    </div> -->
+                  </td>
+                  <td class="price">
+                    <div><h5>$1,200</h5></div>
+                  </td>
+                  <td class="delete"></td>
+                </tr>
+                <tr class="cart-card">
+                  <td class="items">
+                    <img
+                      src="./assets/image/download__10_-removebg-preview.png"
+                      alt=""
+                      class="cart-img"
+                    />
+                    <div class="cart-card-info">
+                      <h4 class="cart-name">Samsung Galaxy Watch Active2</h4>
+                      <p class="item-color">Blue</p>
+                      <p class="item-number">Quantity(1)</p>
+                    </div>
+                  </td>
+                  <td class="quantity">
+                    1
+                    <!-- <div class="amount">1</div>
+                    <div class="counter">
+                      <div class="increase">+</div>
+                      <div class="decrease">-</div>
+                    </div> -->
+                  </td>
+                  <td class="price">
+                    <div><h5>$1,200</h5></div>
+                  </td>
+                  <td class="delete"></td>
+                </tr>
+                <tr class="cart-card">
+                  <td class="items">
+                    <img
+                      src="./assets/image/download__12_-removebg-preview.png"
+                      alt=""
+                      class="cart-img"
+                    />
+                    <div class="cart-card-info">
+                      <h4 class="cart-name">Sony PlayStation 5</h4>
+                      <p class="item-color">Blue</p>
+                      <p class="item-number">Quantity(1)</p>
+                    </div>
+                  </td>
+                  <td class="quantity">
+                    1
+                    <!-- <div class="amount">1</div>
+                    <div class="counter">
+                      <div class="increase">+</div>
+                      <div class="decrease">-</div>
+                    </div> -->
+                  </td>
+                  <td class="price">
+                    <div><h5>$1,200</h5></div>
+                  </td>
+                  <td class="delete"></td>
                 </tr>
               </tbody>
             </table>
           </section>
-          <section class="order-summary">this is not fun</section>
+          <section class="summary-cart">
+            <div class="order-sumary-card">
+              <div class="order-header">
+                <h3 class="sumary-title">Order Summary</h3>
+              </div>
+              <hr />
+              <h4 class="fw-5">Have a Promo Code?</h4>
+              <form action="#" class="promo-from">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="input"
+                  placeholder="Enter Promo Code"
+                />
+                <button type="submit" class="btn-red">Apply</button>
+              </form>
+              <div class="content-flex">
+                <h5>Item(5)</h5>
+                <h5>$2000</h5>
+              </div>
+              <div class="content-flex">
+                <h5>Discount(0%)</h5>
+                <h5>$0</h5>
+              </div>
+              <div class="sum">
+                <div class="content-flex">
+                  <h5>Subtotal</h5>
+                  <h5>$2000</h5>
+                </div>
+                <div class="content-flex">
+                  <h5>Estimated Delivery</h5>
+                  <h5>$100</h5>
+                </div>
+                <div class="content-flex">
+                  <h5>Estimated Tax</h5>
+                  <h5></h5>
+                </div>
+                <div class="order-foot">
+                  <hr />
+                  <div class="content-flex">
+                    <h3 class="sumary-title">Order Summary</h3>
+                    <h3 class="total">$2,100</h3>
+                  </div>
+                </div>
+              </div>
+              <a href="./checkout-address.html" class="checkout-link">
+                <button class="btn bg-red">checkout</button>
+              </a>
+            </div>
+          </section>
         </div>
       </article>
     </main>
+    <footer>
+      <section>
+        <div class="advert"></div>
+      </section>
+      <div class="footer">
+        <div class="foot-content">
+          <div class="nav-logo">
+            <img src="assets/image/64-bit.png" alt="" class="logo" />
+            <h1 class="nav-logo-text">
+              <span class="cr-red">Tech</span>Planet
+            </h1>
+          </div>
+          <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+            aspernatur quidem totam iure harum optio repellendus accusamus quasi
+            id. Recusandae officia optio laborum tempore velit voluptate
+            voluptatem sint deserunt nihil!
+          </p>
+        </div>
+        <div class="foot-content">
+          <h1 class="foot-title">Quicks Links</h1>
+          <ul class="links">
+            <li class="list-link">
+              <a href="index.html" class="foot-links">Home</a>
+            </li>
+            <li class="list-link">
+              <a href="shop.html" class="foot-links">Shop</a>
+            </li>
+            <li class="list-link">
+              <a href="about.html" class="foot-links">About</a>
+            </li>
+            <li class="list-link">
+              <a href="blog.html" class="foot-links">Blog</a>
+            </li>
+            <li class="list-link">
+              <a href="contact.html" class="foot-links">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-content">
+          <h1 class="foot-title">Contact</h1>
+          <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
+            aspernatur quidem totam iure harum optio repellendus accusamus quasi
+            id. Recusandae officia optio laborum tempore velit voluptate
+            voluptatem sint deserunt nihil!
+          </p>
+        </div>
+        <div class="foot-content">
+          <h1 class="foot-title">Subscribe To Our News Letter</h1>
+          <h1 class="foot-title-bg">For Latest News & Update</h1>
+          <form action="#" method="#">
+            <input
+              type="email"
+              name="email-sub"
+              id=""
+              class="sub"
+              placeholder="Enter your email"
+            />
+            <input type="submit" value="Subscribe" class="btn-sub" />
+          </form>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="who">
+          &copy;2024 TechPlanet Digital Shop. All right reserved
+        </div>
+        <div class="privacy">Privacy Policy, Terms & Condition</div>
+      </div>
+    </footer>
   </body>
 </html>
