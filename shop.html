@@ -96,14 +96,14 @@
             <input
               type="range"
               name="price-range"
-              id=""
+              id="price-range"
               class="range-price"
               min="499"
               max="9999"
             />
             <div class="range">
-              <h4 class="min">$499</h4>
-              <h4 class="max">$9,999</h4>
+              <h4 class="min" id="min-price-value">$499</h4>
+              <h4 class="max" id="max-price-value">$9,999</h4>
             </div>
             <button type="submit" class="btn-filter">filter</button>
           </form>
@@ -391,5 +391,16 @@
       </div>
     </footer>
     <script src="assets/js/app.js"></script>
+    <script>
+      const priceRangeEl = document.querySelector(
+        "input[type=range]#price-range"
+      );
+      const minPriceEl = document.querySelector("h4#min-price-value");
+      const maxPriceEl = document.querySelector("h4#max-price-value");
+      console.log(priceRangeEl);
+      priceRangeEl.addEventListener("change", () => {
+        minPriceEl.innerText = `$${priceRangeEl.value}`;
+      });
+    </script>
   </body>
 </html>
