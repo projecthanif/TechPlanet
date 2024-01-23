@@ -279,4 +279,9 @@ label {
   .btn-redirect {
     width: auto;
   }
+  /* FORM ENDS */
+  .shipment-cards, .payment {
+    width: 100%;
+  }
+
 }
