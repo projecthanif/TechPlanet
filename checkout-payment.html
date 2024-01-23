@@ -24,7 +24,9 @@
         <h1 class="nav-logo-text"><span class="cr-red">Tech</span>Planet</h1>
       </div>
       <ul class="navbar">
-        <li class="nav-list"><a href="./index.html" class="nav-link active">Home</a></li>
+        <li class="nav-list">
+          <a href="./index.html" class="nav-link active">Home</a>
+        </li>
         <li class="nav-list"><a href="shop.html" class="nav-link">Shop</a></li>
         <li class="nav-list">
           <a href="about.html" class="nav-link">About Us</a>
@@ -105,9 +107,51 @@
           <section class="payment">
             <h6 class="which-step-sm">Step 03</h6>
             <h3 class="step-title-md">Payment</h3>
-            <p class="step-desc">Payment method:  credit card</p>
+            <p class="step-desc">Payment method: credit card</p>
             <form action="">
-              
+              <div class="form-inputs">
+                <label for="full name">Card Number</label>
+                <input
+                  type="number"
+                  name="card_number"
+                  id=""
+                  class="form-input"
+                  min="16"
+                  max="16"
+                />
+              </div>
+              <div class="form-inputs">
+                <label for="email">Cardholder's Name</label>
+                <input
+                  type="email"
+                  name="cardholder_name"
+                  id=""
+                  class="form-input"
+                />
+              </div>
+              <div class="double">
+                <div class="form-inputs">
+                  <label for="zip_code">Expire Date </label>
+                  <input
+                    type="number"
+                    name="expire_date"
+                    id=""
+                    class="form-input"
+                    min="5"
+                  />
+                </div>
+                <div class="form-inputs">
+                  <label for="cvv_code">CVV Code</label>
+                  <input
+                    type="number"
+                    name="cvv_code"
+                    min="3"
+                    max="3"
+                    id=""
+                    class="form-input"
+                  />
+                </div>
+              </div>
               <div class="double btn">
                 <a href="./checkout-address.html" class="btn-redirect">
                   <i class="fa-solid fa-arrow-left"></i> Back to address

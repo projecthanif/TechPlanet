@@ -284,4 +284,12 @@ label {
     width: 100%;
   }
 
+  .double.btn.payment {
+    margin-top: 20px;
+  }
+
+  .summary {
+    margin-top: 20px;
+  }
+
 }
