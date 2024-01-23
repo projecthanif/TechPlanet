@@ -2,6 +2,10 @@ main {
   padding: 30px;
 }
 
+main {
+  padding: 0;
+}
+
 .carousel {
   display: flex;
   justify-content: space-between;
@@ -84,6 +88,31 @@ main {
   color: red;
 }
 
+@media screen and (max-width: 600px) {
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 30px;
+  }
+  .right-descp {
+    width: 100%;
+    margin-left: -15px;
+  }
+  .descp {
+    width: 40ch;
+  }
+  .title {
+    margin-top: 20px;
+    font-size: 15px;
+    /* background-color: red; */
+  }
+
+  .dp-btn {
+    width: 50%;
+  }
+}
+
 /* Style the tab */
 
 .tabs {
@@ -136,6 +165,16 @@ main {
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  .tabcontent {
+    margin-left: 0px;
+  }
+
+  .description-title {
+    font-size: 15px;
+  }
+}
+
 /* Style for REVIEW CARD */
 
 .card-review {
@@ -164,6 +203,12 @@ main {
 .when {
   margin-left: 10px;
   opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+  .card-review {
+    width: 100%;
+  }
 }
 
 /* Reveiw Form */
@@ -282,6 +327,28 @@ main {
   width: 20%;
 }
 
+@media screen and (max-width: 600px) {
+  .wrapper {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .input {
+    width: 100%;
+  }
+  .form-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-input.textarea {
+    width: 100%;
+  }
+}
+
 /* CARD */
 
 .cards {
@@ -334,20 +401,27 @@ main {
 }
 
 @media screen and (max-width: 600px) {
+  .cards {
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-between;
+  }
   .card-sm-2 {
     width: 100%;
   }
   .card-body {
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    height: 90px;
   }
-
   .card-body-img {
     width: 80%;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-left: -2px;
   }
-  .card-foot {
-    margin-left: 20px;
+
+  .card-name {
+    font-size: 10px;
+  }
+  .card-price{
+    font-size: 9px;
   }
 }
