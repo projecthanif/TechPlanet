@@ -82,13 +82,12 @@ th {
   font-size: 13px;
 }
 
-.price, .quantity {
+.price,
+.quantity {
   position: relative;
   top: -50px;
   padding: 10px;
 }
-
-
 
 /* 
 .quantity {
@@ -179,4 +178,35 @@ th {
   background-color: red;
   color: white;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-page {
+    margin: 5px;
+  }
+  .cart-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart-table, .summary-cart {
+    width: 100%;
+  }
+
+  .cart-img {
+    width: 70%;
+    height: 100px;
+  }
+
+  .cart-card-info {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .cart-name, .item-color, .item-number {
+    font-size: 10px;
+  }
+
+  .summary-cart {
+    margin-top: 50px;
+  }
 }
