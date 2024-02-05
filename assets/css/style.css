@@ -1,4 +1,4 @@
-body{
+body {
   overflow-x: hidden;
   max-width: 100vw;
 }
@@ -107,6 +107,21 @@ p.desc-content {
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  main {
+    margin-top: 70px;
+  }
+  .jb-image {
+    left: 15%;
+  }
+  .content {
+    margin-left: 0px;
+  }
+  .title {
+    font-size: 8.5em;
+  }
+}
+
 /* CARDS */
 
 .cards {
@@ -179,8 +194,6 @@ p.desc-content {
   bottom: 230px;
   /* padding: 40x; */
 }
-
-
 
 .card-sm-1.four {
   background-color: rgba(49, 92, 209, 0.933);
@@ -289,9 +302,70 @@ p.desc-content {
     inset-block-start: 130px;
     left: 0;
   }
-  
 }
 
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .card-sm-1 {
+    width: 28%;
+    height: 290px;
+    padding: 10px;
+  }
+
+  .fs-3 {
+    font-size: 25px;
+  }
+
+  .fs-2 {
+    font-size: 45px;
+  }
+
+  .card-img {
+    top: -100px;
+  }
+  .card-btn.one,
+  .card-btn.two {
+    left: 0px;
+  }
+  .card-detail {
+    margin-left: 0px;
+    margin: 0px;
+  }
+
+  .card-lg {
+    width: 40%;
+    height: 290px;
+  }
+
+  .card-img.lg-one {
+    position: relative;
+    top: -150px;
+    margin-left: 100px;
+  }
+
+  .card-btn.lg-one {
+    bottom: 145px;
+  }
+
+  .card-img.three {
+    left: -80px;
+    top: 80px;
+    width: 300px;
+  }
+
+  .card-btn.three {
+    left: 10px;
+    top: 70px;
+  }
+
+  .card-img.four {
+    width: 190px;
+  }
+
+  .card-btn.four {
+    left: 10px;
+    top: -125px;
+  }
+}
 /* INFO */
 
 .info {
