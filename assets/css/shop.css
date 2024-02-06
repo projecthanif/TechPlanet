@@ -107,6 +107,12 @@ input[type="range"] {
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  aside {
+    display: none;
+  }
+}
+
 /* MAIN */
 
 main {
@@ -118,6 +124,12 @@ main {
 @media screen and (max-width: 600px) {
   main {
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  main {
+    margin-left: 25px;
   }
 }
 
@@ -200,6 +212,12 @@ main {
   }
   .card-foot {
     margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .card-body-img {
+    margin-left: 10px;
   }
 }
 
