@@ -16,7 +16,7 @@
 
 .card-s-body {
   width: 100%;
-  height: 280px;
+  height: 250px;
   border-radius: 25px;
   background-color: #dcdcdc;
 }
@@ -38,7 +38,6 @@
   margin-top: 10px;
   /* width: 55ch; */
 }
-
 
 @media screen and (max-width: 600px) {
   .page-details {

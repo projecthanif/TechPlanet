@@ -58,7 +58,6 @@
     width: 40ch;
   }
 
-  
   .right-img {
     width: 100%;
     height: 100%;
@@ -67,5 +66,19 @@
 
   .btn.jp {
     width: 40%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .left {
+    padding: 0px;
+    margin-top: 50px;
+  }
+  .about-p {
+    width: 40ch;
+  }
+  .right-img {
+    width: 50%;
+    margin-top: 50px;
   }
 }

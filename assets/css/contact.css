@@ -61,7 +61,6 @@
   width: 30%;
 }
 
-   
 .right-img {
   width: 100%;
   height: 500px;
@@ -96,5 +95,11 @@
   }
   .form-input.textarea {
     width: 90%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .right-img {
+    display: none;
   }
 }
