@@ -2,9 +2,7 @@
 
 .advert {
   width: 100%;
-  /* background-color: #dcdcdc; */
-  background-image: linear-gradient(to right, #dcdcdc, #E7E7E7);
-  /* padding: 10px; */
+  background-image: linear-gradient(to right, #dcdcdc, #e7e7e7);
   height: 150px;
   margin-top: 20px;
 }
@@ -80,6 +78,13 @@ a.foot-links {
 }
 
 @media screen and (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
   .footer {
     display: flex;
     flex-wrap: wrap;
